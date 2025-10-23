@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.05" height="14.934" viewBox="0 0 16.05 14.934">
+    <g data-name="그룹 25378">
+        <g data-name="그룹 25354" transform="translate(4.887)">
+            <circle data-name="타원 446" cx="2.963" cy="2.963" r="2.963" transform="rotate(-86.4 5.762 2.876)" style="stroke:#777;stroke-linejoin:round;stroke-width:.5px;fill:#f0f0f0"/>
+            <g data-name="그룹 25353">
+                <path data-name="선 139" transform="translate(5.667)" style="fill:none;stroke:#777;stroke-linejoin:round;stroke-width:.5px" d="M0 0v1.46"/>
+                <path data-name="선 140" transform="translate(1.76 1.503)" style="fill:none;stroke:#777;stroke-linejoin:round;stroke-width:.5px" d="m0 0 1.03 1.03"/>
+                <path data-name="선 141" transform="translate(0 5.582)" style="fill:none;stroke:#777;stroke-linejoin:round;stroke-width:.5px" d="M0 0h1.46"/>
+                <path data-name="선 142" transform="translate(1.503 8.415)" style="fill:none;stroke:#777;stroke-linejoin:round;stroke-width:.5px" d="M0 .987 1.03 0"/>
+                <path data-name="선 143" transform="translate(8.415 1.503)" style="fill:none;stroke:#777;stroke-linejoin:round;stroke-width:.5px" d="M.987 0 0 1.03"/>
+                <path data-name="선 144" transform="translate(9.746 5.582)" style="fill:none;stroke:#777;stroke-linejoin:round;stroke-width:.5px" d="M1.417 0H0"/>
+                <path data-name="선 145" transform="translate(5.667 9.746)" style="fill:none;stroke:#777;stroke-linejoin:round;stroke-width:.5px" d="M0 1.417V0"/>
+            </g>
+        </g>
+        <path data-name="패스 14979" d="M459.691 344.478a4.072 4.072 0 0 0-4.036-3.478 4.222 4.222 0 0 0-4.079 4.079c0 2.233 0 .429.043.644a2.714 2.714 0 0 0-2.619 2.748v.086a2.767 2.767 0 0 0 2.748 2.748h7.552a3.445 3.445 0 0 0 3.435-3.435 3.312 3.312 0 0 0-3.044-3.392z" transform="translate(-448.75 -336.621)" style="stroke:#777;stroke-linejoin:round;stroke-width:.5px;fill:#f0f0f0"/>
+    </g>
+</svg>

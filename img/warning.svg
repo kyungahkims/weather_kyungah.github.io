@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="80" viewBox="0 0 81 80">
+    <defs>
+        <clipPath id="jdjkax34ia">
+            <path data-name="합치기 7" d="M-1 50h-40V9.506h40V-30h41v80z" transform="translate(629 2022)" style="stroke:#ff9d47;fill:none"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 25550">
+        <g data-name="그룹 25530">
+            <g data-name="그룹 25528">
+                <g data-name="타원 493" style="stroke-width:10px;stroke:#fff5ec;fill:none" transform="translate(1)">
+                    <circle cx="40" cy="40" r="40" style="stroke:none"/>
+                    <circle cx="40" cy="40" r="35" style="fill:none"/>
+                </g>
+            </g>
+            <g data-name="마스크 그룹 7" transform="translate(-588 -1992)" style="clip-path:url(#jdjkax34ia)">
+                <g data-name="그룹 25529">
+                    <g data-name="타원 493" style="stroke-width:10px;stroke:#ff9d47;fill:none" transform="translate(589 1992)">
+                        <circle cx="40" cy="40" r="40" style="stroke:none"/>
+                        <circle cx="40" cy="40" r="35" style="fill:none"/>
+                    </g>
+                </g>
+            </g>
+            <g data-name="그룹 25533">
+                <path data-name="패스 26003" d="M22.828 49.921a1.669 1.669 0 0 1-1.18-2.849 11.168 11.168 0 0 1 15.652-.138 1.669 1.669 0 0 1-2.319 2.4 7.831 7.831 0 0 0-10.975.1 1.663 1.663 0 0 1-1.18.489" transform="translate(11.618 -.623)" style="fill:#ff9d47"/>
+                <path data-name="패스 26004" d="M17.837 31.1a1.669 1.669 0 0 1-.9-3.078l2.377-1.512-2.378-1.513a1.669 1.669 0 0 1 1.793-2.817l4.59 2.921a1.669 1.669 0 0 1 0 2.817l-4.591 2.921a1.658 1.658 0 0 1-.894.261" transform="translate(13.833 9.084)" style="fill:#ff9d47"/>
+                <path data-name="패스 26005" d="M47.424 31.1a1.658 1.658 0 0 1-.894-.261l-4.591-2.921a1.669 1.669 0 0 1 0-2.817l4.59-2.921a1.669 1.669 0 0 1 1.793 2.817l-2.378 1.513 2.377 1.512a1.669 1.669 0 0 1-.9 3.078" transform="translate(2.744 9.084)" style="fill:#ff9d47"/>
+            </g>
+        </g>
+    </g>
+</svg>

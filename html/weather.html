@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/weather.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+	<script src="../js/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<title>날씨</title>
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="wrapper">
+
+			<div class="box_group box_group1">
+				<section class="left">
+					<article class="box1">
+						<div class="area_wrap">
+							<div class="position">
+								<button type="button" aria-label="찜하기" class="like_btn"></button>
+								<h3>구로구 구로동</h3>
+								<button type="button" aria-label="내 위치" class="position_btn"></button>
+							</div>
+							<div class="area">
+								<div class="tooltip_wrap">
+									<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+									<div class="tool right_tail">
+										<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+										<ul>
+											<li>관심 지역을
+												찾아보세요.</li>
+										</ul>
+									</div>
+								</div>
+								<button type="button" class="area_btn">지역선택</button>
+							</div>
+						</div>
+						<ul class="group_wrap">
+							<li class="first">
+								<span class="label">현재 10.22</span>
+								<div class="temperature_wrap">
+									<span class="weather_img bigcloud" role="img" aria-label="구름많음"></span>
+									<strong>22.2<span>°</span></strong>
+								</div>
+								<div class="cont1"><strong>구름많음</strong><span>어제보다 1.5° ↑</span></div>
+								<div class="cont2">
+									<span>최저 <strong>15°</strong></span><span>최고 <strong>15°</strong></span>
+								</div>
+							</li>
+							<li class="mo">
+								<button type="button" aria-label="오늘/내일 날씨 보기" class="more_btn more_btn1"></button>
+								<div>
+									<strong class="date">내일</strong>
+									<div class="time">오전</div>
+									<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+									<div class="weather">맑음</div>
+									<div class="rainfall"><span class="rainfall_icon" role="img" aria-label="강수량" title="강수량"></span>10%
+									</div>
+								</div>
+								<button type="button" aria-label="오늘/내일 날씨 보기" class="more_btn more_btn2"></button>
+							</li>
+							<li class="second">
+								<span class="label">내일 10.23</span>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21<span>°</span></strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30<span>°</span></strong>
+									</div>
+								</div>
+								<div class="cont_wrap">
+									<div class="tooltip_wrap">
+										<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+										<div class="tool">
+											<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+											<ul>
+												<li>관심 지역을
+													찾아보세요.</li>
+											</ul>
+										</div>
+									</div>
+									<div class="cont3">
+										<div>
+											<span class="title">오전</span>
+											<span class="weather"><span class="weather_mini_icon icon1" role="img"
+													aria-label="맑음"></span>맑음</span>
+											<span class="rainfall"><span class="rainfall_icon" role="img" aria-label="강수량"
+													title="강수량"></span>10%</span>
+										</div>
+										<div>
+											<span class="title">오후</span>
+											<span class="weather"><span class="weather_mini_icon icon2" role="img"
+													aria-label="맑음"></span>맑음</span>
+											<span class="rainfall"><span class="rainfall_icon" role="img" aria-label="강수량"
+													title="강수량"></span>10%</span>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="swiper swiper1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<table>
+										<thead>
+											<tr>
+												<th><span class="label black">오늘</span></th>
+												<th>
+													<div class="time">18시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">19시</div>
+													<span class="weather_icon bitcloud" role="img" aria-label="구름약간" title="구름약간"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">20시</div>
+													<span class="weather_icon snow" role="img" aria-label="눈" title="눈"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">21시</div>
+													<span class="weather_icon bigcloud" role="img" aria-label="구름많음" title="구름많음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">22시</div>
+													<span class="weather_icon bigcloud" role="img" aria-label="구름많음" title="구름많음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">23시</div>
+													<span class="weather_icon cloud" role="img" aria-label="흐림"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="title">강수량 <span>mm</span></td>
+												<td class="grey">0</td>
+												<td class="grey">150</td>
+												<td>40</td>
+												<td>40</td>
+												<td>40</td>
+												<td>40</td>
+											</tr>
+											<tr>
+												<td class="title">습도 <span>%</span></td>
+												<td>50</td>
+												<td>60</td>
+												<td>70</td>
+												<td>90</td>
+												<td>90</td>
+												<td>70</td>
+											</tr>
+											<tr>
+												<td class="title">바람 <span>㎧</span></td>
+												<td>3<span class="wing_icon" role="img" aria-label="바람 방향 북쪽"></span></td>
+												<td>3<span class="wing_icon" role="img" aria-label="바람 방향 북쪽"></span></td>
+												<td>1<span class="wing_icon" role="img" aria-label="바람 방향 북쪽"></span></td>
+												<td>3<span class="wing_icon" role="img" aria-label="바람 방향 북쪽"></span></td>
+												<td>1<span class="wing_icon" role="img" aria-label="바람 방향 북쪽"></span></td>
+												<td>2<span class="wing_icon" role="img" aria-label="바람 방향 북쪽"></span></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="swiper-slide">
+									<table>
+										<thead>
+											<tr>
+												<th><span class="label blue">내일</span></th>
+												<th>
+													<div class="time">1시</div>
+													<span class="weather_icon rain" role="img" aria-label="비" title="비"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">2시</div>
+													<span class="weather_icon rain" role="img" aria-label="비" title="비"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">3시</div>
+													<span class="weather_icon rainbow" role="img" aria-label="무지개" title="무지개"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">4시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">5시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">6시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">7시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">8시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">9시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">10시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">11시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">12시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">13시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">14시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">15시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">16시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">17시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">18시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">19시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">20시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">21시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">22시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+												<th>
+													<div class="time">23시</div>
+													<span class="weather_icon sun" role="img" aria-label="맑음" title="맑음"></span>
+													<div class="temperature">30°</div>
+													<div class="rainfall_rate">60%</div>
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="title">강수량 <span>mm</span></td>
+												<td class="grey">0</td>
+												<td class="grey">150</td>
+												<td>40</td>
+												<td>50</td>
+												<td>88</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>40</td>
+												<td>50</td>
+												<td>88</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+												<td>77</td>
+											</tr>
+											<tr>
+												<td class="title">습도 <span>%</span></td>
+												<td>50</td>
+												<td>60</td>
+												<td>70</td>
+												<td>90</td>
+												<td>70</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+												<td>60</td>
+											</tr>
+											<tr>
+												<td class="title">바람 <span>㎧</span></td>
+												<td>3<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>1<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>3<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>1<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+												<td>2<span class="wing_icon active" role="img" aria-label="바람 방향 동쪽"></span></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</article>
+					<div class="banner">
+						<h3>배너</h3>
+					</div>
+					<article class="box2">
+						<div class="title_wrap">
+							<h3>주간예보</h3>
+							<div class="tooltip_wrap">
+								<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+								<div class="tool">
+									<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+									<ul>
+										<li>관심 지역을
+											찾아보세요.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<ul class="list_wrap">
+							<li>
+								<div class="date">
+									<strong>오늘</strong>
+									<div>10/22</div>
+								</div>
+								<div class="rainfall">
+									<div>
+										<div>오전</div>
+										<strong>
+											<span class="weather_img cloud" role="img" aria-label="흐림" title="흐림"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+									<div>
+										<div>오후</div>
+										<strong>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+								</div>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21°</strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30°</strong>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="date">
+									<strong>내일</strong>
+									<div>10/23</div>
+								</div>
+								<div class="rainfall">
+									<div>
+										<div>오전</div>
+										<strong>
+											<span class="weather_img rain" role="img" aria-label="비" title="비"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+									<div>
+										<div>오후</div>
+										<strong>
+											<span class="weather_img rainbow" role="img" aria-label="무지개" title="무지개"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+								</div>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21°</strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30°</strong>
+									</div>
+								</div>
+							</li>
+							<li class="mo">
+								<div class="date">
+									<strong>금</strong>
+									<div>10/24</div>
+								</div>
+								<div class="rainfall">
+									<div>
+										<div>오전</div>
+										<strong>
+											<span class="weather_img rain" role="img" aria-label="비" title="비"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+									<div>
+										<div>오후</div>
+										<strong>
+											<span class="weather_img rainbow" role="img" aria-label="무지개" title="무지개"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+								</div>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21°</strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30°</strong>
+									</div>
+								</div>
+							</li>
+							<li class="mo">
+								<div class="date">
+									<strong>토</strong>
+									<div>10/25</div>
+								</div>
+								<div class="rainfall">
+									<div>
+										<div>오전</div>
+										<strong>
+											<span class="weather_img rain" role="img" aria-label="비" title="비"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+									<div>
+										<div>오후</div>
+										<strong>
+											<span class="weather_img rainbow" role="img" aria-label="무지개" title="무지개"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+								</div>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21°</strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30°</strong>
+									</div>
+								</div>
+							</li>
+							<li class="mo">
+								<div class="date red">
+									<strong>일</strong>
+									<div>10/26</div>
+								</div>
+								<div class="rainfall">
+									<div>
+										<div>오전</div>
+										<strong>
+											<span class="weather_img rain" role="img" aria-label="비" title="비"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+									<div>
+										<div>오후</div>
+										<strong>
+											<span class="weather_img rainbow" role="img" aria-label="무지개" title="무지개"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+								</div>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21°</strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30°</strong>
+									</div>
+								</div>
+							</li>
+							<li class="mo">
+								<div class="date">
+									<strong>월</strong>
+									<div>10/27</div>
+								</div>
+								<div class="rainfall">
+									<div>
+										<div>오전</div>
+										<strong>
+											<span class="weather_img rain" role="img" aria-label="비" title="비"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+									<div>
+										<div>오후</div>
+										<strong>
+											<span class="weather_img rainbow" role="img" aria-label="무지개" title="무지개"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+								</div>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21°</strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30°</strong>
+									</div>
+								</div>
+							</li>
+							<li class="mo">
+								<div class="date">
+									<strong>화</strong>
+									<div>10/27</div>
+								</div>
+								<div class="rainfall">
+									<div>
+										<div>오전</div>
+										<strong>
+											<span class="weather_img rain" role="img" aria-label="비" title="비"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+									<div>
+										<div>오후</div>
+										<strong>
+											<span class="weather_img rainbow" role="img" aria-label="무지개" title="무지개"></span>
+											<span>30%</span>
+										</strong>
+									</div>
+								</div>
+								<div class="temperature">
+									<div>
+										<div class="lowest">최저</div>
+										<strong class="blue">21°</strong>
+									</div>
+									<div>
+										<div class="top">최고</div>
+										<strong class="red">30°</strong>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="mo banner">
+							<h3>배너</h3>
+						</div>
+						<div class="swiper swiper2">
+							<div class="swiper-wrapper list_wrap2">
+								<div class="swiper-slide slide">
+									<span class="title">토</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img rainbow" role="img" aria-label="무지개" title="무지개"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img rain" role="img" aria-label="비" title="비"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title red">일</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img snow" role="img" aria-label="눈" title="눈"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img sun" role="img" aria-label="맑음" title="맑음"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title">월</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img cloud" role="img" aria-label="흐림" title="흐림"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title">화</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img bigcloud" role="img" aria-label="구름많음" title="구름많음"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title">수</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img snow" role="img" aria-label="눈" title="눈"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title">목</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title">금</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title">토</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img cloud" role="img" aria-label="흐림" title="흐림"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide slide">
+									<span class="title red">일</span>
+									<div class="cont_group">
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="blue">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+										<div>
+											<span class="weather_img bitcloud" role="img" aria-label="약간흐림" title="약간흐림"></span>
+											<strong class="red">21°</strong>
+											<div class="probability">30%</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</article>
+				</section>
+
+				<section class="right">
+					<article class="box1">
+						<div class="title_wrap">
+							<h3 class="title">전국날씨</h3>
+							<span class="warning">폭염 - 경고</span>
+						</div>
+						<div class="content">
+							<ul class="tab_wrap">
+								<li><button type="button">월<span>오늘</span></button></li>
+								<li><button type="button">화<span>10.21</span></button></li>
+								<li><button type="button">수<span>10.22</span></button></li>
+								<li><button type="button">목<span>10.23</span></button></li>
+								<li><button type="button">금<span>10.24</span></button></li>
+								<li><button type="button">토<span>10.25</span></button></li>
+								<li><button type="button">일<span>10.26</span></button></li>
+							</ul>
+							<div class="tabcontent">
+								<div></div>
+							</div>
+						</div>
+					</article>
+					<div class="banner">
+						<h3>배너</h3>
+					</div>
+					<article class="box2">
+						<div class="title_wrap">
+							<h3 class="title">날씨속보</h3>
+							<a href="#" class="more">더보기</a>
+						</div>
+						<div class="news_wrap">
+							<div class="img_box"></div>
+							<div class="img_content">
+								<h5>
+									[날씨] 가을 건너 뛰고 바로 '초겨울'...다음 주 서울 7℃, 11월도 찬 바람
+								</h5>
+								<p>사진=임형택 기자 금요일인 4일 낮
+									최고기 온이 37도까지 오르는 곳이 있습니다.</p>
+							</div>
+						</div>
+						<ul class="news_list">
+							<li>'기온 뚝' 쌀쌀한 가을 날씨…출근길 겉옷은 필수 [아침&매일경제]</li>
+							<li>[930 날씨] 비 밤에 전국으로 확대…내일 오전까지 계속</li>
+							<li>[아침뉴스타임 날씨] 비 밤에 전국으로 확대…내일 오전까지 계속</li>
+							<li>[날씨] 서늘한 출근길, 오후부터 전국 비...밤부터 수도권도 비</li>
+						</ul>
+					</article>
+				</section>
+			</div><!-- box_group -->
+
+			<div class="box_group box_group2">
+				<section class="left">
+					<div class="box_wrap">
+						<div class="mo_tab_wrap">
+							<button type="button">위성영상</button>
+							<button type="button">레이더 영상</button>
+						</div>
+						<article class="box1 mo_tabcontent">
+							<h3>위성영상</h3>
+							<div class="img_box">위성영상</div>
+						</article>
+						<article class="box2 mo_tabcontent">
+							<h3>레이더 영상</h3>
+							<div class="img_box">레이더 영상</div>
+						</article>
+					</div>
+					<article class="box3">
+						<h3>미세먼지 지수</h3>
+						<div class="group_wrap">
+							<ul class="graph_wrap scroll_x">
+								<li>
+									<div class="donut_graph" data-percent="20">
+										<svg class="graph_circle" width="126" height="126">
+											<circle class="bg green" cx="63" cy="63" r="52" />
+											<circle class="progress green" cx="63" cy="63" r="52" />
+										</svg>
+										<div class="graph_text green">0</div>
+									</div>
+									<div class="graph_state normal">
+										<div class="title">현재 미세먼지</div>
+										<strong class="state">보통</strong>
+										<div class="info">WHO 권고치 이내
+											<div class="tooltip_wrap">
+												<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+												<div class="tool">
+													<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+													<ul>
+														<li>관심 지역을
+															찾아보세요.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="donut_graph" data-percent="65">
+										<svg class="graph_circle" width="126" height="126">
+											<circle class="bg blue" cx="63" cy="63" r="52" />
+											<circle class="progress blue" cx="63" cy="63" r="52" />
+										</svg>
+										<div class="graph_text blue">0</div>
+									</div>
+									<div class="graph_state good">
+										<div class="title">현재 초미세먼지</div>
+										<strong class="state">좋음</strong>
+										<div class="info">WHO 권고치 이내
+											<div class="tooltip_wrap">
+												<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+												<div class="tool">
+													<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+													<ul>
+														<li>관심 지역을
+															찾아보세요.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<ul class="tomorrow_wrap">
+								<li>
+									<strong class="title">내일 오전</strong>
+									<div class="cont">
+										<span class="sub_title">미세</span>
+										<strong class="state good">좋음</strong>
+										<span class="slash">/</span>
+										<span class="sub_title">초미세</span>
+										<strong class="state good">좋음</strong>
+									</div>
+								</li>
+								<li>
+									<strong class="title">내일 오후</strong>
+									<div class="cont">
+										<span class="sub_title">미세</span>
+										<strong class="state good">좋음</strong>
+										<span class="slash">/</span>
+										<span class="sub_title">초미세</span>
+										<strong class="state good">좋음</strong>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<ul class="etc_wrap scroll_x">
+							<li>
+								<div class="title">오존</div>
+								<strong class="num">0.027</strong><span class="state">좋음</span>
+							</li>
+							<li>
+								<div class="title">일산화탄소</div>
+								<strong class="num">0.5</strong><span class="state">좋음</span>
+							</li>
+							<li>
+								<div class="title">아황산가스</div>
+								<strong class="num">0.003</strong><span class="state">좋음</span>
+							</li>
+							<li>
+								<div class="title">이산화질소</div>
+								<strong class="num">0.064</strong><span class="state">나쁨</span>
+							</li>
+						</ul>
+					</article>
+					<article class="box4">
+						<div class="title_wrap">
+							<h3>오늘의 생활·보건 지수</h3>
+							<div class="tooltip_wrap">
+								<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+								<div class="tool">
+									<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+									<ul>
+										<li>관심 지역을
+											찾아보세요.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<ul class="quotient_wrap scroll_x">
+							<li class="normal">
+								<div class="state">보통</div>
+								<span class="title">자외선지수</span>
+							</li>
+							<li class="warning">
+								<div class="state">높음</div>
+								<span class="title">대기정체지수</span>
+							</li>
+							<li class="dangers">
+								<div class="state">위험</div>
+								<span class="title">식중독지수</span>
+							</li>
+							<li class="warning">
+								<div class="state">경고</div>
+								<span class="title">천식질환지수</span>
+							</li>
+							<li class="good">
+								<div class="state">관심</div>
+								<span class="title">심뇌혈관질환지수</span>
+							</li>
+						</ul>
+					</article>
+					<div class="banner">
+						<h3>배너</h3>
+					</div>
+				</section>
+
+				<section class="right">
+					<div class="banner">
+						<h3>배너</h3>
+					</div>
+					<article class="box1">
+						<h3>일출일몰</h3>
+						<div class="group">
+							<div>
+								<div class="sunset_graph" data-progress="100">
+									<svg>
+										<path d="M 10 110 A 90 90 0 0 1 190 110" stroke="#777" stroke-width="2" fill="none"
+											stroke-dasharray="8 8" />
+										<path class="arc-fill" d="M 10 110 A 90 90 0 0 1 190 110" stroke="#f7ad00
+										" stroke-width="9" fill="none" stroke-linecap="round" />
+									</svg>
+									<div class="sun"></div>
+									<div class="text">오늘 <span>10.22</span></div>
+								</div>
+								<ul class="list_wrap">
+									<li>
+										<div class="title_wrap">
+											<strong class="title">일출</strong>
+											<div class="title_sub">AM</div>
+										</div>
+										<strong class="time">05:33</strong>
+									</li>
+									<li>
+										<div class="title_wrap">
+											<strong class="title">일몰</strong>
+											<div class="title_sub">PM</div>
+										</div>
+										<strong class="time">05:33</strong>
+									</li>
+								</ul>
+							</div>
+							<ul class="sub_list_wrap">
+								<li>
+									<span class="title_wrap">
+										<strong class="title">내일</strong>
+										<span class="date">10.23</span>
+									</span>
+									<div>
+										<strong class="time">05:33</strong>
+										<strong class="time">05:33</strong>
+									</div>
+								</li>
+								<li>
+									<span class="title_wrap">
+										<strong class="title">모레</strong>
+										<span class="date">10.24</span>
+									</span>
+									<div>
+										<strong class="time">05:33</strong>
+										<strong class="time">05:33</strong>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<div class="box2">
+						<div class="tab_wrap">
+							<button type="button" class="active">계절예보</button>
+							<button type="button">월간예보</button>
+						</div>
+						<div class="sub_tab_wrap">
+							<button type="button" class="active">10월</button>
+							<button type="button">11월</button>
+							<button type="button">12월</button>
+						</div>
+						<div class="tabcontent">
+							<ul class="list_wrap">
+								<li><span class="title">평년기온</span>높음</li>
+								<li><span class="title">평년강수</span>비슷함</li>
+							</ul>
+							<p>열대 서태평양의 높은 해수면 온도와 봄철 유럽의
+								적은 눈덮임으로 인해 우리나라 부근에 고기압성
+								순환이 강화되어 기온이 상승하고, 강수량이 감소할 가능성이 있겠습니다. 한편, 일시적으로 우리나라
+								북쪽에 위치한 기압골의 영향을 받아 국지적으로
+								많은 강수가 내릴 가능성도 있겠습니다. (월평균기온) 평년(24.9~25.9℃)보다 높을 확률이
+								50%입니다. (월강수량) 평년(173.5~331.1㎜)과
+								비슷하거나 적을 확률이 각각 40%입니다.</p>
+						</div>
+					</div>
+					<article class="box3">
+						<div class="title_wrap">
+							<h3>연관 검색어</h3>
+							<div class="tooltip_wrap">
+								<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+								<div class="tool">
+									<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+									<ul>
+										<li>관심 지역을
+											찾아보세요.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="btn_wrap">
+							<button type="button" class="report_btn">신고</button>
+							<button type="button" aria-label="닫기" class="close_btn"></button>
+						</div>
+						<ul class="list_wrap">
+							<li><a href="#">서울 날씨</a></li>
+							<li><a href="#">대구 날씨</a></li>
+							<li><a href="#">날씨 예보</a></li>
+							<li><a href="#">부산 날씨</a></li>
+							<li><a href="#">대전 날씨</a></li>
+							<li><a href="#">광주 날씨</a></li>
+							<li><a href="#">전국 날씨</a></li>
+							<li><a href="#">인천 날씨</a></li>
+							<li><a href="#">수원 날씨</a></li>
+							<li><a href="#">제주 날씨</a></li>
+						</ul>
+					</article>
+				</section>
+			</div><!-- box_group -->
+		</div>
+	</div><!-- wrap -->
+	<script src="../js/weather.js"></script>
+</body>
+
+</html>

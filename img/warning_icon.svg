@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <clipPath id="gpmb62zkba">
+            <path data-name="사각형 12730" style="fill:#ff9d47" d="M0 0h18v18H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 25505">
+        <circle data-name="타원 492" cx="9" cy="9" r="9" style="opacity:.1;fill:#ff9d47"/>
+        <g data-name="그룹 25504">
+            <g data-name="그룹 25411" style="clip-path:url(#gpmb62zkba)">
+                <path data-name="패스 25990" d="M9 18a9 9 0 1 1 9-9 9.01 9.01 0 0 1-9 9M9 1.5A7.5 7.5 0 1 0 16.5 9 7.509 7.509 0 0 0 9 1.5" style="fill:#ff9d47"/>
+                <path data-name="패스 25991" d="M21.909 46.55a.75.75 0 0 1-.53-1.28 5.018 5.018 0 0 1 7.033-.062.75.75 0 0 1-1.042 1.079 3.518 3.518 0 0 0-4.931.043.747.747 0 0 1-.53.22" transform="translate(-15.869 -32.85)" style="fill:#ff9d47"/>
+                <path data-name="패스 25992" d="M16.917 26.042a.75.75 0 0 1-.4-1.383l1.068-.68-1.068-.68a.75.75 0 0 1 .806-1.266l2.062 1.313a.75.75 0 0 1 0 1.266l-2.062 1.312a.745.745 0 0 1-.4.117" transform="translate(-12.124 -16.438)" style="fill:#ff9d47"/>
+                <path data-name="패스 25993" d="M43.978 26.042a.745.745 0 0 1-.4-.117l-2.062-1.312a.75.75 0 0 1 0-1.266l2.062-1.312a.75.75 0 0 1 .806 1.266l-1.068.68 1.068.68a.75.75 0 0 1-.4 1.383" transform="translate(-30.875 -16.438)" style="fill:#ff9d47"/>
+            </g>
+        </g>
+    </g>
+</svg>

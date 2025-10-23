@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20">
+    <defs>
+        <clipPath id="qr8zg5dmza">
+            <path data-name="사각형 12754" transform="translate(1608 -33)" style="stroke:#707070;fill:#fff" d="M0 0h22v20H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-1608 33)" style="clip-path:url(#qr8zg5dmza)">
+        <path data-name="다각형 3" d="M10.417 4.371a3 3 0 0 1 5.166 0l7.743 13.1A3 3 0 0 1 20.743 22H5.257a3 3 0 0 1-2.583-4.526z" transform="translate(1606 -35)" style="fill:#fff"/>
+        <text data-name="!" transform="translate(1621.9 -16)" style="fill:#f44;font-size:16px;font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500"><tspan x="-5.488" y="0">!</tspan></text>
+    </g>
+</svg>

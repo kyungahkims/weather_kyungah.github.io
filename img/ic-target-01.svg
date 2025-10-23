@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <g data-name="그룹 12">
+        <g data-name="타원 441" style="stroke:#c4c4c4;stroke-width:.5px;fill:#f0f0f0">
+            <circle cx="11" cy="11" r="11" style="stroke:none"/>
+            <circle cx="11" cy="11" r="10.75" style="fill:none"/>
+        </g>
+    </g>
+    <g data-name="그룹 13">
+        <g data-name="타원 443" transform="translate(4 4)" style="stroke:#000;fill:#f0f0f0">
+            <circle cx="7" cy="7" r="7" style="stroke:none"/>
+            <circle cx="7" cy="7" r="6.5" style="fill:none"/>
+        </g>
+        <path data-name="선 2" transform="translate(11 2.5)" style="stroke-linecap:round;fill:none;stroke:#000" d="M0 0v4"/>
+        <path data-name="선 3" transform="translate(11 15.5)" style="stroke-linecap:round;fill:none;stroke:#000" d="M0 0v4"/>
+        <path data-name="선 4" transform="rotate(90 4.25 15.25)" style="stroke-linecap:round;fill:none;stroke:#000" d="M0 0v4"/>
+        <path data-name="선 5" transform="rotate(90 -2.25 8.75)" style="stroke-linecap:round;fill:none;stroke:#000" d="M0 0v4"/>
+        <g data-name="타원 444" transform="translate(8 8)" style="stroke:#000;fill:#f0f0f0">
+            <circle cx="3" cy="3" r="3" style="stroke:none"/>
+            <circle cx="3" cy="3" r="2.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>

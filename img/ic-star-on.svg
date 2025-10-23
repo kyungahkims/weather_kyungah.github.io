@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <g data-name="타원 440" style="fill:#fff;stroke:#c4c4c4;stroke-width:.5px">
+        <circle cx="11" cy="11" r="11" style="stroke:none"/>
+        <circle cx="11" cy="11" r="10.75" style="fill:none"/>
+    </g>
+    <g data-name="CK_psxtg0896884 [변환됨]">
+        <path data-name="패스 1" d="m166.391 520.645 1.667 3.286a.636.636 0 0 0 .48.339l3.729.528a.615.615 0 0 1 .352 1.058l-2.7 2.557a.609.609 0 0 0-.184.55l.638 3.612a.633.633 0 0 1-.924.652l-3.338-1.7a.652.652 0 0 0-.6 0l-3.338 1.7a.633.633 0 0 1-.924-.652l.638-3.612a.609.609 0 0 0-.184-.55l-2.7-2.557a.616.616 0 0 1 .352-1.058l3.729-.528a.636.636 0 0 0 .48-.339l1.667-3.286a.647.647 0 0 1 1.144 0z" transform="translate(-154.815 -516.3)" style="fill:#feb623"/>
+    </g>
+</svg>
