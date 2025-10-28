@@ -185,7 +185,7 @@ circles.forEach((wrap) => {
 
 /* 일출일몰 그래프 */
 document.querySelectorAll('.sunset_graph').forEach(gauge => {
-	const targetProgress = Number(gauge.dataset.progress);
+	const targetProgress = Number(gauge.dataset.progress) /* 100 */ ;
 	const fill = gauge.querySelector('.arc-fill');
 	const sun = gauge.querySelector('.sun');
 	const radius = 90;

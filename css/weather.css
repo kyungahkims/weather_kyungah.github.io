@@ -511,7 +511,7 @@ body {
 .wrap .wrapper .box_group1 .left .box1 .swiper.swiper1 {
   position: relative;
   border-top: 1px solid #eee;
-  margin: 25px 10px 0;
+  margin-top: 25px;
   padding-top: 11px;
   padding-right: 35px;
 }
@@ -563,6 +563,44 @@ body {
   background: url("../img/ic-arrow-01-disabled.svg") no-repeat center;
   background: none;
 }
+.wrap .wrapper .box_group1 .left .box1 .table_wrap {
+  display: flex;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left {
+  min-width: 61px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #222;
+  margin: 25px 0 0 10px;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left span {
+  font-size: 9px;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left span.label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 11px;
+  padding: 2px 11px 3px;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left span.label.black {
+  background-color: #333;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(1) {
+  height: 118px;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  padding-top: 20px;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(2),
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(3) {
+  height: 32px;
+  border-bottom: 1px solid #e9e9e9;
+  padding-top: 7px;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(4) {
+  padding-top: 15px;
+}
 .wrap .wrapper .box_group1 .left .box1 table {
   width: 100%;
   text-align: center;
@@ -574,17 +612,14 @@ body {
   min-width: 58px;
   padding: 7px 0 5px;
 }
-.wrap .wrapper .box_group1 .left .box1 table thead tr th:nth-child(1) {
-  width: 70px;
-  text-align: left;
-  vertical-align: top;
-}
 .wrap .wrapper .box_group1 .left .box1 table thead tr th .label {
+  position: relative;
+  top: -3px;
   font-size: 11px;
   font-weight: 500;
   color: #fff;
   border-radius: 11px;
-  padding: 3px 11px 4px;
+  padding: 2px 11px 3px;
 }
 .wrap .wrapper .box_group1 .left .box1 table thead tr th .label.black {
   background-color: #333;
@@ -623,9 +658,6 @@ body {
   font-weight: 500;
   color: #126ccd;
   padding: 7px 0;
-}
-.wrap .wrapper .box_group1 .left .box1 table tbody tr td:nth-child(1) {
-  text-align: left;
 }
 .wrap .wrapper .box_group1 .left .box1 table tbody tr .title {
   color: #222;

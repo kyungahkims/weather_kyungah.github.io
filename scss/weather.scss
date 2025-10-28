@@ -603,7 +603,7 @@ body {
 					.swiper.swiper1 {
 						position: relative;
 						border-top: 1px solid #eee;
-						margin: 25px 10px 0;
+						margin-top: 25px;
 						padding-top: 11px;
 						padding-right: 35px;
 
@@ -667,6 +667,52 @@ body {
 						}
 					}
 
+					.table_wrap {
+						display: flex;
+
+						.left {
+							min-width: 61px;
+							font-size: 12px;
+							font-weight: 500;
+							color: #222;
+							margin: 25px 0 0 10px;
+
+							span {
+								font-size: 9px;
+
+								&.label {
+									font-size: 11px;
+									font-weight: 500;
+									color: #fff;
+									border-radius: 11px;
+									padding: 2px 11px 3px;
+
+									&.black {
+										background-color: #333;
+									}
+								}
+							}
+
+							li:nth-child(1) {
+								height: 118px;
+								border-top: 1px solid #e9e9e9;
+								border-bottom: 1px solid #e9e9e9;
+								padding-top: 20px;
+							}
+
+							li:nth-child(2),
+							li:nth-child(3) {
+								height: 32px;
+								border-bottom: 1px solid #e9e9e9;
+								padding-top: 7px;
+							}
+
+							li:nth-child(4) {
+								padding-top: 15px;
+							}
+						}
+					}
+
 					table {
 						width: 100%;
 						text-align: center;
@@ -679,18 +725,14 @@ body {
 									min-width: 58px;
 									padding: 7px 0 5px;
 
-									&:nth-child(1) {
-										width: 70px;
-										text-align: left;
-										vertical-align: top;
-									}
-
 									.label {
+										position: relative;
+										top: -3px;
 										font-size: 11px;
 										font-weight: 500;
 										color: #fff;
 										border-radius: 11px;
-										padding: 3px 11px 4px;
+										padding: 2px 11px 3px;
 
 										&.black {
 											background-color: #333;
@@ -744,10 +786,6 @@ body {
 									font-weight: 500;
 									color: #126ccd;
 									padding: 7px 0;
-
-									&:nth-child(1) {
-										text-align: left;
-									}
 								}
 
 								.title {
@@ -995,7 +1033,6 @@ body {
 							height: 30px;
 							background: url('../img/ic-arrow-01.svg') no-repeat center;
 							z-index: 901;
-
 
 							&::after {
 								content: none;
