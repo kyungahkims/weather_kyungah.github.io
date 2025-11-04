@@ -221,6 +221,7 @@ body {
 /* wrap */
 .wrap {
   padding: 16px;
+  overflow: hidden;
 }
 .wrap .wrapper {
   max-width: 1280px;
@@ -922,12 +923,108 @@ body {
   margin: 2px 0;
 }
 .wrap .wrapper .box_group1 .right .box1 .tabcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 396px;
   background-color: #85c6f8;
   border-radius: 10px;
   padding: 30px 12px 18px;
   margin-top: 10px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map {
+  position: relative;
+  width: 244px;
+  height: 332px;
+  background: url("../img/img-map.svg") no-repeat center;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_1 {
+  top: 22px;
+  left: 60px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_2 {
+  top: -5px;
+  left: 114px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_3 {
+  top: 10px;
+  left: -18px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_4 {
+  top: 36px;
+  right: 30px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_5 {
+  top: 55px;
+  left: 114px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_6 {
+  top: 74px;
+  left: 20px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_7 {
+  top: 130px;
+  left: 24px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_8 {
+  top: 108px;
+  left: 76px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_9 {
+  top: 106px;
+  right: 50px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_10 {
+  top: 110px;
+  right: -8px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_11 {
+  top: 156px;
+  right: 20px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_12 {
+  top: 160px;
+  right: 84px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_13 {
+  top: 192px;
+  left: 34px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_14 {
+  top: 238px;
+  left: 6px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_15 {
+  top: 220px;
+  left: 76px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_16 {
+  top: 218px;
+  right: 50px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a.map_17 {
+  bottom: -11px;
+  left: 10px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a .weather_icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.wrap .wrapper .box_group1 .right .box1 .tabcontent .map a .area {
+  position: relative;
+  top: -2px;
+  font-size: 11px;
+  font-weight: 500;
+  color: 222;
 }
 .wrap .wrapper .box_group1 .right .banner {
   display: flex;
@@ -1852,4 +1949,4 @@ body {
     display: block;
     padding: 8px 7px;
   }
-}
+}/*# sourceMappingURL=weather.css.map */
