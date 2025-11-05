@@ -924,11 +924,26 @@
 						</div>
 						<article class="box1 mo_tabcontent">
 							<h3>위성영상</h3>
-							<div class="img_box">위성영상</div>
+							<div class="img_box">
+								<div class="range_wrap">
+									<button type="button" aria-label="재생/스탑" class="start_btn"></button>
+									<div class="range_bar">
+										<input type="range" min="0" max="100" value="50" id="timeRange">
+										<div class="tooltip" id="rangeTooltip">수 16:10</div>
+										<div class="labels">
+											<span></span>
+											<span>16:40</span>
+											<span>17:10</span>
+											<span>17:40</span>
+											<span></span>
+										</div>
+									</div>
+								</div>
+							</div>
 						</article>
 						<article class="box2 mo_tabcontent">
 							<h3>레이더 영상</h3>
-							<div class="img_box">레이더 영상</div>
+							<div class="img_box"></div>
 						</article>
 					</div>
 					<article class="box3">

@@ -216,7 +216,6 @@ document.querySelectorAll('.sunset_graph').forEach(gauge => {
 	animate();
 });
 
-
 /* 반응형 드래그 */
 const wraps = document.querySelectorAll('.scroll_x');
 
@@ -249,4 +248,37 @@ wraps.forEach((wrap) => {
 		const walk = (x - startX) * 1;
 		wrap.scrollLeft = scrollLeft - walk;
 	});
+});
+
+/* 재생버튼 토글 */
+const startbtn = document.querySelector('.start_btn');
+
+startbtn.addEventListener('click', () => {
+	startbtn.classList.toggle('start_btn');
+	startbtn.classList.toggle('stop_btn');
+});
+
+/* rangebar */
+const range = document.getElementById('timeRange');
+const tooltip = document.getElementById('rangeTooltip');
+range.value = 0;
+
+range.addEventListener('input', e => {
+	const value = +e.target.value;
+	const percent = value / e.target.max;
+	const rangeWidth = e.target.offsetWidth;
+	const thumbOffset = 18 / 2;
+
+	const tooltipX = percent * (rangeWidth - 18) + thumbOffset;
+	tooltip.style.left = `${tooltipX}px`;
+
+	const start = 16 * 60 + 10;
+	const end = 18 * 60 + 10;
+	const current = start + (end - start) * percent;
+	const hour = Math.floor(current / 60);
+	const minute = Math.round(current % 60);
+	tooltip.textContent = `수 ${hour}:${minute.toString().padStart(2, '0')}`;
+
+	const percentValue = (value / e.target.max) * 100;
+	e.target.style.background = `linear-gradient(to right, #fff ${percentValue}%, #c9c9c9 ${percentValue}%)`;
 });

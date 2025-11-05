@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <clipPath id="cxwl6r2cca">
+            <path data-name="사각형 12737" transform="translate(-.065 -.199)" style="fill:#fff" d="M0 0h16v16H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 25709" transform="translate(.065 .199)" style="clip-path:url(#cxwl6r2cca)">
+        <rect data-name="사각형 12904" width="5" height="16" rx="1" transform="translate(1.935 -.199)" style="fill:#fff"/>
+        <rect data-name="사각형 12905" width="5" height="16" rx="1" transform="translate(9.935 -.199)" style="fill:#fff"/>
+    </g>
+</svg>
