@@ -1960,6 +1960,9 @@ body {
   .wrap .wrapper .box_group1 .left .box1 {
     border: none;
     padding: 10px 0 16px 0;
+    /* .table_wrap .left li:nth-child(1) {
+    	height: 117px;
+    } */
   }
   .wrap .wrapper .box_group1 .left .box1 .group_wrap {
     margin-top: 21px;
