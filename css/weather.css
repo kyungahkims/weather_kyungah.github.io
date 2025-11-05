@@ -568,6 +568,8 @@ body {
   display: flex;
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left {
+  position: relative;
+  top: -1px;
   min-width: 61px;
   font-size: 12px;
   font-weight: 500;
@@ -607,14 +609,16 @@ body {
   width: 100%;
   text-align: center;
 }
+.wrap .wrapper .box_group1 .left .box1 table thead {
+  min-height: 106px;
+  max-height: 106px;
+}
 .wrap .wrapper .box_group1 .left .box1 table thead tr {
   border-bottom: 1px solid #e9e9e9;
 }
 .wrap .wrapper .box_group1 .left .box1 table thead tr th {
   min-width: 58px;
-  min-height: 106px;
-  max-height: 106px;
-  padding: 6px 0 5px;
+  padding: 5px 0 5px;
 }
 .wrap .wrapper .box_group1 .left .box1 table thead tr th .label {
   position: relative;

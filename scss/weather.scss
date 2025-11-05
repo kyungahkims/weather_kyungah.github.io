@@ -672,6 +672,8 @@ body {
 						display: flex;
 
 						.left {
+							position: relative;
+							top: -1px;
 							min-width: 61px;
 							font-size: 12px;
 							font-weight: 500;
@@ -720,15 +722,16 @@ body {
 						text-align: center;
 
 						thead {
+							min-height: 106px;
+							max-height: 106px;
 
 							tr {
 								border-bottom: 1px solid #e9e9e9;
 
 								th {
 									min-width: 58px;
-									min-height: 106px;
-									max-height: 106px;
-									padding: 6px 0 5px;
+
+									padding: 5px 0 5px;
 
 									.label {
 										position: relative;
