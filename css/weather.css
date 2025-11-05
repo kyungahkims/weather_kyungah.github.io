@@ -588,33 +588,31 @@ body {
   background-color: #333;
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(1) {
-  height: 116px;
+  min-height: 117px;
+  max-height: 117px;
   border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
   padding-top: 20px;
-}
-.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(2) {
-  border-top: 1px solid #e9e9e9;
-}
-.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(3) {
-  border-top: 1px solid #e9e9e9;
-}
-.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(4) {
-  border-top: 1px solid #e9e9e9;
-  padding-top: 15px;
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(2),
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(3) {
   height: 32px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #e9e9e9;
   padding-top: 7px;
+}
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(4) {
+  padding-top: 15px;
 }
 .wrap .wrapper .box_group1 .left .box1 table {
   width: 100%;
   text-align: center;
 }
+.wrap .wrapper .box_group1 .left .box1 table thead tr {
+  border-bottom: 1px solid #e9e9e9;
+}
 .wrap .wrapper .box_group1 .left .box1 table thead tr th {
   min-width: 58px;
-  min-height: 106px;
-  max-height: 106px;
   padding: 6px 0 5px;
 }
 .wrap .wrapper .box_group1 .left .box1 table thead tr th .label {
@@ -652,8 +650,8 @@ body {
   color: #126ccd;
   margin-top: 4px;
 }
-.wrap .wrapper .box_group1 .left .box1 table tbody tr {
-  border-top: 1px solid #e9e9e9;
+.wrap .wrapper .box_group1 .left .box1 table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #e9e9e9;
 }
 .wrap .wrapper .box_group1 .left .box1 table tbody tr .grey {
   color: #c4c4c4;
