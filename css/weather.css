@@ -566,6 +566,7 @@ body {
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap {
   display: flex;
+  justify-content: flex-start;
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left {
   min-width: 61px;
@@ -603,8 +604,12 @@ body {
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(4) {
   padding-top: 15px;
 }
+.wrap .wrapper .box_group1 .left .box1 .table_wrap .swiper {
+height: 100%;
+}
 .wrap .wrapper .box_group1 .left .box1 table {
   width: 100%;
+  height: 100%;
   text-align: center;
 }
 .wrap .wrapper .box_group1 .left .box1 table thead tr {
@@ -2077,4 +2082,5 @@ body {
     display: block;
     padding: 8px 7px;
   }
+
 }/*# sourceMappingURL=weather.css.map */
