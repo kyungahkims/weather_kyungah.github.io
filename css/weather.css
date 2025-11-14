@@ -607,12 +607,8 @@ body {
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left li:nth-child(4) {
   padding-top: 15px;
 }
-.wrap .wrapper .box_group1 .left .box1 .table_wrap .swiper {
-height: 100%;
-}
 .wrap .wrapper .box_group1 .left .box1 table {
   width: 100%;
-  height: 100%;
   text-align: center;
 }
 .wrap .wrapper .box_group1 .left .box1 table thead tr {
@@ -2087,4 +2083,5 @@ height: 100%;
   }
 
 }/*# sourceMappingURL=weather.css.map */
+
 
