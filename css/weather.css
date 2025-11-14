@@ -566,11 +566,8 @@ body {
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap {
   display: flex;
-  justify-content: flex-start;
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left {
-  display: flex;
-	flex-direction: column;
 	min-width: 61px;
 	height: 100%;
   font-size: 12px;
@@ -2083,5 +2080,6 @@ body {
   }
 
 }/*# sourceMappingURL=weather.css.map */
+
 
 
