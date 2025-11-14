@@ -569,7 +569,10 @@ body {
   justify-content: flex-start;
 }
 .wrap .wrapper .box_group1 .left .box1 .table_wrap .left {
-  min-width: 61px;
+  display: flex;
+	flex-direction: column;
+	min-width: 61px;
+	height: 100%;
   font-size: 12px;
   font-weight: 500;
   color: #222;
@@ -2084,3 +2087,4 @@ height: 100%;
   }
 
 }/*# sourceMappingURL=weather.css.map */
+
