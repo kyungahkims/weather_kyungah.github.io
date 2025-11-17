@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+    <defs>
+        <linearGradient id="5vkfcpa4mb" x1=".732" y1=".143" x2=".128" y2=".929" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffdd63"/>
+            <stop offset="1" stop-color="#f6cc24"/>
+        </linearGradient>
+        <linearGradient id="4o6bkuqikc" x1=".139" y1=".128" x2=".888" y2=".839" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#eea61a"/>
+            <stop offset="1" stop-color="#ffb626"/>
+        </linearGradient>
+        <linearGradient id="3ywm3t9n6d" x1=".485" y1=".48" x2="-.138" y2="1.173" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffdf6e"/>
+            <stop offset="1" stop-color="#ffea9f"/>
+        </linearGradient>
+        <clipPath id="sfczl36l0a">
+            <path data-name="사각형 12916" transform="translate(0 .123)" style="fill:none" d="M0 0h90v90H0z"/>
+        </clipPath>
+        <filter id="xwergtw06e" x="33.697" y="27.436" width="26.137" height="36.407" filterUnits="userSpaceOnUse">
+            <feOffset dx="1" dy="1"/>
+            <feGaussianBlur result="blur"/>
+            <feFlood flood-color="#d99b21" flood-opacity=".4"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="그룹 25731" transform="translate(0 -.123)" style="clip-path:url(#sfczl36l0a)">
+        <g data-name="그룹 25732">
+            <path data-name="패스 26091" d="M203.9 67.362a43.75 43.75 0 1 1-43.75-43.75 43.75 43.75 0 0 1 43.75 43.75" transform="translate(-115.239 -22.1)" style="fill:url(#5vkfcpa4mb)"/>
+            <path data-name="패스 26093" d="M233.393 104.611a36 36 0 1 1-36-36 36 36 0 0 1 36 36" transform="translate(-152.488 -59.349)" style="fill:url(#4o6bkuqikc)"/>
+            <path data-name="패스 26094" d="M249.126 124.477a31.865 31.865 0 1 1-31.865-31.865 31.865 31.865 0 0 1 31.865 31.865" transform="translate(-172.354 -79.215)" style="fill:url(#3ywm3t9n6d)"/>
+            <g style="filter:url(#xwergtw06e)">
+                <path data-name="패스 26095" d="M2.529-29.393c-3.929-.137-9.457-.091-13.431 0-.137 4.98-.006 29.13.177 35.115a35.459 35.459 0 0 0 7.629 0C-3.05 4.214-3.227.9-3.227-4.815c1.873 0 4.066 0 5.162-.046 7.584-.183 12.243-4.157 12.243-12.472.001-6.989-3.745-11.786-11.649-12.06zM1.57-12.124c-1.827.046-3.289.091-4.8.046 0-4.751 0-8.863-.046-10.1a41.209 41.209 0 0 1 4.751 0c3.563.183 4.888 1.69 4.888 5.162.004 3.11-1.321 4.754-4.793 4.892z" transform="translate(44.657 57.042)" style="fill:#fff"/>
+            </g>
+        </g>
+    </g>
+</svg>

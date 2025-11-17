@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <clipPath id="41es8wfvxa">
+            <path data-name="사각형 12823" style="fill:#fff;stroke:#707070" d="M0 0h30v30H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#41es8wfvxa)">
+        <g data-name="타원 499" style="stroke:#0084fd;stroke-width:5px;fill:none">
+            <circle cx="15" cy="15" r="15" style="stroke:none"/>
+            <circle cx="15" cy="15" r="12.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>
