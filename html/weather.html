@@ -407,9 +407,34 @@
 							</div>
 						</div>
 					</article>
-					<div class="banner">
-						<h3>배너</h3>
+					<div class="banner_wrap">
+						<div class="banner mo_x">
+							<h3>배너 (pc)</h3>
+						</div>
+						<!-- 퀴즈 풀기 전 -->
+
+						<div class="quiz">
+							<strong class="label">날씨 어때 OX 퀴즈</strong>
+							<div class="num">1</div>
+							<h5>열대우림 지역은<br>1년 내내 비가 많이 온다.</h5>
+							<div class="btn_wrap">
+								<span class="answer_o"></span>
+								<span class="answer_x"></span>
+							</div>
+							<p>퀴즈 풀고 최대 <span>1,000P</span> 받자!</p>
+						</div>
+
+						<!-- 퀴즈 풀기 후 -->
+
+						<!-- <div class="quiz finish">
+							<strong class="label">날씨 어때 OX 퀴즈</strong>
+							<div class="title">오늘 퀴즈 포인트</div>
+							<strong class="coin">총 5P 당첨!</strong>
+							<h5>내일 다시 참여해보세요😎</h5>
+							<p>퀴즈 풀고 최대 <span>1,000P</span> 받자!</p>
+						</div> -->
 					</div>
+
 					<article class="box2">
 						<div class="title_wrap">
 							<h3>주간예보</h3>
@@ -650,9 +675,6 @@
 								</div>
 							</li>
 						</ul>
-						<div class="mo banner">
-							<h3>배너</h3>
-						</div>
 						<div class="swiper swiper2">
 							<div class="swiper-wrapper list_wrap2">
 								<div class="swiper-slide slide">
@@ -798,11 +820,8 @@
 				</section>
 
 				<section class="right">
-					<article class="box1">
-						<div class="title_wrap">
-							<h3 class="title">전국날씨</h3>
-							<span class="warning">폭염 - 경고</span>
-						</div>
+					<article class="box1 move">
+						<h3 class="title">전국날씨</h3>
 						<div class="content">
 							<ul class="tab_wrap">
 								<li><button type="button">월<span>오늘</span></button></li>
@@ -885,212 +904,12 @@
 									</a>
 								</div>
 							</div>
+							<div class="warning">폭염 - 경고</div>
+							<button type="button" class="push_btn">포인트 푸시 받기</button>
 						</div>
 					</article>
-					<div class="banner">
-						<h3>배너</h3>
-					</div>
 					<article class="box2">
-						<div class="title_wrap">
-							<h3 class="title">날씨속보</h3>
-							<a href="#" class="more">더보기</a>
-						</div>
-						<div class="news_wrap">
-							<div class="img_box"></div>
-							<div class="img_content">
-								<h5>
-									[날씨] 가을 건너 뛰고 바로 '초겨울'...다음 주 서울 7℃, 11월도 찬 바람
-								</h5>
-								<p>사진=임형택 기자 금요일인 4일 낮
-									최고기 온이 37도까지 오르는 곳이 있습니다.</p>
-							</div>
-						</div>
-						<ul class="news_list">
-							<li>'기온 뚝' 쌀쌀한 가을 날씨…출근길 겉옷은 필수 [아침&매일경제]</li>
-							<li>[930 날씨] 비 밤에 전국으로 확대…내일 오전까지 계속</li>
-							<li>[아침뉴스타임 날씨] 비 밤에 전국으로 확대…내일 오전까지 계속</li>
-							<li>[날씨] 서늘한 출근길, 오후부터 전국 비...밤부터 수도권도 비</li>
-						</ul>
-					</article>
-				</section>
-			</div><!-- box_group -->
-
-			<div class="box_group box_group2">
-				<section class="left">
-					<div class="box_wrap">
-						<div class="mo_tab_wrap">
-							<button type="button">위성영상</button>
-							<button type="button">레이더 영상</button>
-						</div>
-						<article class="box1 mo_tabcontent">
-							<h3>위성영상</h3>
-							<div class="img_box">
-								<div class="range_wrap">
-									<button type="button" aria-label="재생/스탑" class="start_btn"></button>
-									<div class="range_bar">
-										<input type="range" min="0" max="100" value="50" id="timeRange">
-										<div class="tooltip" id="rangeTooltip">수 16:10</div>
-										<div class="labels">
-											<span></span>
-											<span>16:40</span>
-											<span>17:10</span>
-											<span>17:40</span>
-											<span></span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="box2 mo_tabcontent">
-							<h3>레이더 영상</h3>
-							<div class="img_box"></div>
-						</article>
-					</div>
-					<article class="box3">
-						<h3>미세먼지 지수</h3>
-						<div class="group_wrap">
-							<ul class="graph_wrap scroll_x">
-								<li>
-									<div class="donut_graph" data-percent="20">
-										<svg class="graph_circle" width="126" height="126">
-											<circle class="bg green" cx="63" cy="63" r="52" />
-											<circle class="progress green" cx="63" cy="63" r="52" />
-										</svg>
-										<div class="graph_text green">0</div>
-									</div>
-									<div class="graph_state normal">
-										<div class="title">현재 미세먼지</div>
-										<strong class="state">보통</strong>
-										<div class="info">WHO 권고치 이내
-											<div class="tooltip_wrap">
-												<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
-												<div class="tool">
-													<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
-													<ul>
-														<li>관심 지역을
-															찾아보세요.</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="donut_graph" data-percent="65">
-										<svg class="graph_circle" width="126" height="126">
-											<circle class="bg blue" cx="63" cy="63" r="52" />
-											<circle class="progress blue" cx="63" cy="63" r="52" />
-										</svg>
-										<div class="graph_text blue">0</div>
-									</div>
-									<div class="graph_state good">
-										<div class="title">현재 초미세먼지</div>
-										<strong class="state">좋음</strong>
-										<div class="info">WHO 권고치 이내
-											<div class="tooltip_wrap">
-												<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
-												<div class="tool">
-													<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
-													<ul>
-														<li>관심 지역을
-															찾아보세요.</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-							</ul>
-							<ul class="tomorrow_wrap">
-								<li>
-									<strong class="title">내일 오전</strong>
-									<div class="cont">
-										<span class="sub_title">미세</span>
-										<strong class="state good">좋음</strong>
-										<span class="slash">/</span>
-										<span class="sub_title">초미세</span>
-										<strong class="state good">좋음</strong>
-									</div>
-								</li>
-								<li>
-									<strong class="title">내일 오후</strong>
-									<div class="cont">
-										<span class="sub_title">미세</span>
-										<strong class="state good">좋음</strong>
-										<span class="slash">/</span>
-										<span class="sub_title">초미세</span>
-										<strong class="state good">좋음</strong>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<ul class="etc_wrap scroll_x">
-							<li>
-								<div class="title">오존</div>
-								<strong class="num">0.027</strong><span class="state">좋음</span>
-							</li>
-							<li>
-								<div class="title">일산화탄소</div>
-								<strong class="num">0.5</strong><span class="state">좋음</span>
-							</li>
-							<li>
-								<div class="title">아황산가스</div>
-								<strong class="num">0.003</strong><span class="state">좋음</span>
-							</li>
-							<li>
-								<div class="title">이산화질소</div>
-								<strong class="num">0.064</strong><span class="state">나쁨</span>
-							</li>
-						</ul>
-					</article>
-					<article class="box4">
-						<div class="title_wrap">
-							<h3>오늘의 생활·보건 지수</h3>
-							<div class="tooltip_wrap">
-								<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
-								<div class="tool">
-									<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
-									<ul>
-										<li>관심 지역을
-											찾아보세요.</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<ul class="quotient_wrap scroll_x">
-							<li class="normal">
-								<div class="state">보통</div>
-								<span class="title">자외선지수</span>
-							</li>
-							<li class="warning">
-								<div class="state">높음</div>
-								<span class="title">대기정체지수</span>
-							</li>
-							<li class="dangers">
-								<div class="state">위험</div>
-								<span class="title">식중독지수</span>
-							</li>
-							<li class="warning">
-								<div class="state">경고</div>
-								<span class="title">천식질환지수</span>
-							</li>
-							<li class="good">
-								<div class="state">관심</div>
-								<span class="title">심뇌혈관질환지수</span>
-							</li>
-						</ul>
-					</article>
-					<div class="banner">
-						<h3>배너</h3>
-					</div>
-				</section>
-
-				<section class="right">
-					<div class="banner">
-						<h3>배너</h3>
-					</div>
-					<article class="box1">
-						<h3>일출일몰</h3>
+						<h3>일출/일몰</h3>
 						<div class="group">
 							<div>
 								<div id="gauge" class="sunset_graph" data-progress="100">
@@ -1144,65 +963,350 @@
 							</ul>
 						</div>
 					</article>
-					<div class="box2">
-						<div class="tab_wrap">
-							<button type="button" class="active">계절예보</button>
-							<button type="button">월간예보</button>
-						</div>
-						<div class="sub_tab_wrap">
-							<button type="button" class="active">10월</button>
-							<button type="button">11월</button>
-							<button type="button">12월</button>
-						</div>
-						<div class="tabcontent">
-							<ul class="list_wrap">
-								<li><span class="title">평년기온</span>높음</li>
-								<li><span class="title">평년강수</span>비슷함</li>
-							</ul>
-							<p>열대 서태평양의 높은 해수면 온도와 봄철 유럽의
-								적은 눈덮임으로 인해 우리나라 부근에 고기압성
-								순환이 강화되어 기온이 상승하고, 강수량이 감소할 가능성이 있겠습니다. 한편, 일시적으로 우리나라
-								북쪽에 위치한 기압골의 영향을 받아 국지적으로
-								많은 강수가 내릴 가능성도 있겠습니다. (월평균기온) 평년(24.9~25.9℃)보다 높을 확률이
-								50%입니다. (월강수량) 평년(173.5~331.1㎜)과
-								비슷하거나 적을 확률이 각각 40%입니다.</p>
-						</div>
+					<div class="banner">
+						<h3>배너</h3>
 					</div>
-					<article class="box3">
-						<div class="title_wrap">
-							<h3>연관 검색어</h3>
-							<div class="tooltip_wrap">
-								<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
-								<div class="tool">
-									<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
-									<ul>
-										<li>관심 지역을
-											찾아보세요.</li>
-									</ul>
+				</section>
+			</div><!-- box_group -->
+
+			<div class="box_group box_group2">
+				<section class="left">
+					<div class="box_wrap">
+						<div class="mo_tab_wrap">
+							<button type="button">위성영상</button>
+							<button type="button">레이더 영상</button>
+						</div>
+						<article class="box1 mo_tabcontent">
+							<h3>위성영상</h3>
+							<div class="img_box">
+								<div class="range_wrap">
+									<button type="button" aria-label="재생/스탑" class="start_btn"></button>
+									<div class="range_bar">
+										<input type="range" min="0" max="100" value="50" id="timeRange">
+										<div class="tooltip" id="rangeTooltip">수 16:10</div>
+										<div class="labels">
+											<span></span>
+											<span>16:40</span>
+											<span>17:10</span>
+											<span>17:40</span>
+											<span></span>
+										</div>
+									</div>
 								</div>
 							</div>
+						</article>
+						<article class="box2 mo_tabcontent">
+							<h3>레이더 영상</h3>
+							<div class="img_box"></div>
+						</article>
+					</div>
+					<div class="banner banner_m">
+						<h3>배너</h3>
+					</div>
+					<div class="group">
+						<article class="box3">
+							<h3>미세먼지 지수</h3>
+							<div class="group_wrap">
+								<ul class="graph_wrap scroll_x">
+									<li>
+										<div class="donut_graph" data-percent="20">
+											<svg class="graph_circle" width="126" height="126">
+												<circle class="bg green" cx="63" cy="63" r="52" />
+												<circle class="progress green" cx="63" cy="63" r="52" />
+											</svg>
+											<div class="graph_text green">0</div>
+										</div>
+										<div class="graph_state normal">
+											<div class="title">현재 미세먼지</div>
+											<strong class="state">보통</strong>
+											<div class="info">WHO 권고치 이내
+												<div class="tooltip_wrap">
+													<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+													<div class="tool">
+														<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+														<ul>
+															<li>관심 지역을
+																찾아보세요.</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="donut_graph" data-percent="65">
+											<svg class="graph_circle" width="126" height="126">
+												<circle class="bg blue" cx="63" cy="63" r="52" />
+												<circle class="progress blue" cx="63" cy="63" r="52" />
+											</svg>
+											<div class="graph_text blue">0</div>
+										</div>
+										<div class="graph_state good">
+											<div class="title">현재 초미세먼지</div>
+											<strong class="state">좋음</strong>
+											<div class="info">WHO 권고치 이내
+												<div class="tooltip_wrap">
+													<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+													<div class="tool">
+														<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+														<ul>
+															<li>관심 지역을
+																찾아보세요.</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<ul class="tomorrow_wrap">
+									<li>
+										<strong class="title">내일 오전</strong>
+										<div class="cont">
+											<span class="sub_title">미세</span>
+											<strong class="state good">좋음</strong>
+											<span class="slash">/</span>
+											<span class="sub_title">초미세</span>
+											<strong class="state good">좋음</strong>
+										</div>
+									</li>
+									<li>
+										<strong class="title">내일 오후</strong>
+										<div class="cont">
+											<span class="sub_title">미세</span>
+											<strong class="state good">좋음</strong>
+											<span class="slash">/</span>
+											<span class="sub_title">초미세</span>
+											<strong class="state good">좋음</strong>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</article>
+						<article class="box4">
+							<div class="title_wrap">
+								<h3>오늘의 생활·보건 지수</h3>
+								<div class="tooltip_wrap">
+									<button type="button" aria-label="툴팁버튼" class="tooltip_btn"></button>
+									<div class="tool">
+										<button type="button" aria-label="상세 설명 닫기" class="close_btn"></button>
+										<ul>
+											<li>관심 지역을
+												찾아보세요.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<ul class="quotient_wrap scroll_x">
+								<li class="normal">
+									<div class="state">보통</div>
+									<span class="title">자외선지수</span>
+								</li>
+								<li class="warning">
+									<div class="state">높음</div>
+									<span class="title">대기정체지수</span>
+								</li>
+								<li class="dangers">
+									<div class="state">위험</div>
+									<span class="title">식중독지수</span>
+								</li>
+								<li class="warning">
+									<div class="state">경고</div>
+									<span class="title">천식질환지수</span>
+								</li>
+								<li class="good">
+									<div class="state">관심</div>
+									<span class="title">심뇌혈관질환지수</span>
+								</li>
+							</ul>
+						</article>
+						</ㅇ>
+						<div class="banner mo_x">
+							<h3>배너 (pc)</h3>
 						</div>
-						<div class="btn_wrap">
-							<button type="button" class="report_btn">신고</button>
-							<button type="button" aria-label="닫기" class="close_btn"></button>
+				</section>
+
+				<section class="right">
+					<article class="box1">
+						<h3>월출/월몰</h3>
+						<div class="group">
+							<div>
+								<div class="info_box">
+									<p>
+										<strong>하현망간의 달</strong>
+										오늘은 음력 9.18 입니다.
+									</p>
+								</div>
+								<ul class="list_wrap">
+									<li>
+										<div class="title_wrap">
+											<strong class="title">월출</strong>
+											<div class="title_sub">AM</div>
+										</div>
+										<strong class="time">05:33</strong>
+									</li>
+									<li>
+										<div class="title_wrap">
+											<strong class="title">월몰</strong>
+											<div class="title_sub">PM</div>
+										</div>
+										<strong class="time">05:33</strong>
+									</li>
+								</ul>
+							</div>
+							<ul class="sub_list_wrap">
+								<li>
+									<span class="title_wrap">
+										<strong class="title">내일</strong>
+										<span class="date">10.23</span>
+									</span>
+									<div>
+										<strong class="time">05:33</strong>
+										<strong class="time">05:33</strong>
+									</div>
+								</li>
+								<li>
+									<span class="title_wrap">
+										<strong class="title">모레</strong>
+										<span class="date">10.24</span>
+									</span>
+									<div>
+										<strong class="time">05:33</strong>
+										<strong class="time">05:33</strong>
+									</div>
+								</li>
+							</ul>
 						</div>
-						<ul class="list_wrap">
-							<li><a href="#">서울 날씨</a></li>
-							<li><a href="#">대구 날씨</a></li>
-							<li><a href="#">날씨 예보</a></li>
-							<li><a href="#">부산 날씨</a></li>
-							<li><a href="#">대전 날씨</a></li>
-							<li><a href="#">광주 날씨</a></li>
-							<li><a href="#">전국 날씨</a></li>
-							<li><a href="#">인천 날씨</a></li>
-							<li><a href="#">수원 날씨</a></li>
-							<li><a href="#">제주 날씨</a></li>
+					</article>
+
+					<article class="box2">
+						<h3>구로3동 대기 정보</h3>
+						<div class="tab_wrap scroll_x">
+							<button type="button">미세먼지</button>
+							<button type="button">초미세먼지</button>
+							<button type="button">황사</button>
+							<button type="button">오존</button>
+						</div>
+						<div class="air">
+							<span>현재</span>
+							<strong>보통 65</strong>
+							<span>㎍/㎥</span>
+						</div>
+						<div class="bar_graph"></div>
+					</article>
+
+					<div class="banner">
+						<h3>배너</h3>
+					</div>
+					<article class="box3">
+						<h3>체감온도</h3>
+						<div class="temp_graph">
+							<svg viewBox="0 0 260 77" width="100%" height="77" xmlns="http://www.w3.org/2000/svg">
+								<defs>
+									<linearGradient id="tempGradient" x1="0%" x2="100%" y1="0%" y2="0%">
+										<stop id="stop1" offset="0%" stop-color="#abc4ff" />
+										<stop id="stop2" offset="72%" stop-color="#abc4ff" />
+										<stop id="stop3" offset="72%" stop-color="#e9e9e9" />
+										<stop id="stop4" offset="100%" stop-color="#e9e9e9" />
+									</linearGradient>
+								</defs>
+								<path id="tempPath"
+									d="M4,39.76C21.61,36.72,39.22,33.69,54.4,31.57C69.58,29.46,82.33,28.26,104.8,26.89C127.27,25.53,159.46,24,186.28,23.38C213.1,22.77,234.55,23.08,256,23.38"
+									stroke="url(#tempGradient)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"
+									fill="none"></path>
+								<circle id="tempCircle" cx="186.28" cy="23.38" r="7" fill="#abc4ff" stroke="#126ccd" stroke-width="2">
+								</circle>
+							</svg>
+						</div>
+						<input type="range" id="percentRange" min="0" max="100" value="80" />
+						<ul class="sub_list_wrap">
+							<li>
+								<span class="title">체감<br>온도</span>
+								<storng class="temp">21</storng>
+							</li>
+							<li>
+								<span class="title">현재<br>온도</span>
+								<storng class="temp">18</storng>
+							</li>
 						</ul>
 					</article>
 				</section>
 			</div><!-- box_group -->
 		</div>
+		<div class="wing_banner">
+			<button type="button" aria-label="배너 닫기" class="close_banner_btn"></button>
+		</div>
+	</div><!-- wraper -->
 	</div><!-- wrap -->
+
+	<div class="modal_wrap">
+		<div class="pop pop1">
+			<div>
+				<button type="button" aria-label="닫기버튼" class="close_btn"></button>
+				<strong class="label">날씨 어때 OX 퀴즈</strong>
+				<div class="num">1</div>
+				<h5>열대우림 지역은<br>1년 내내 비가 많이 온다.</h5>
+				<div class="btn_wrap">
+					<button type="button" aria-label="O" class="answer_o"></button>
+					<button type="button" aria-label="X" class="answer_x"></button>
+				</div>
+				<p>퀴즈 풀고 최대 <span>1,000P</span> 받자!</p>
+			</div>
+			<div class="info">
+				<strong>꼭 알아두세요!</strong>
+				<ul>
+					<li>일일 최대 3문제까지 풀 수 있습니다.</li>
+					<li>포인트는 최소 1P ~ 최대 1,000P까지 지급됩니다.</li>
+					<li>획득권은 광고 시청 후 지급됩니다.</li>
+					<li>퀴즈는 다음 날 다시 풀 수 있습니다.</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- <div class="pop pop2">
+			<div>
+				<button type="button" aria-label="닫기버튼" class="close_btn"></button>
+				<strong class="label">날씨 어때 OX 퀴즈</strong>
+				<div class="num">정답</div>
+				<div class="btn_wrap">
+					<span aria-label="O" class="answer_o"></span>
+				</div>
+				<p class="info">열대우림 지역은 낮에도, 밤에도, 하루도 비가 안 오는 날을 찾기가 힘들어요!</p>
+			</div>
+			<div>
+				<strong class="coin">5P 획득</strong>
+				<h5>🥳 짝짝짝! <span>정답</span>이예요.<br>
+					다음 문제를 도전해볼까요?</h5>
+				<button type="button" class="comfirm_btn">다음 문제 풀기</button>
+			</div>
+		</div> -->
+
+		<!-- <div class="pop pop3">
+			<div>
+				<button type="button" aria-label="닫기버튼" class="close_btn"></button>
+				<strong class="label">날씨 어때 OX 퀴즈</strong>
+				<div class="num">오답</div>
+				<p class="info">힌트: 눈, 피부, 심장, 혈관에도 영향을 줄 수 있어요</p>
+
+			</div>
+			<div>
+				<h5>아쉬워요😭 <span>오답</span>이에요.<br>
+					다음 퀴즈 도전하세요!!</h5>
+				<button type="button" class="comfirm_btn">도전권 획득하기</button>
+			</div>
+		</div> -->
+
+		<!-- <div class="pop pop4">
+			<div>
+				<button type="button" aria-label="닫기버튼" class="close_btn"></button>
+				<strong class="label">날씨 어때 OX 퀴즈</strong>
+				<div class="title">오늘 퀴즈 포인트</div>
+				<strong class="coin">총 5P 당첨!</strong>
+				<h5>내일 다시 참여해보세요😎</h5>
+			</div>
+			<div class="banner"></div>
+		</div> -->
+	</div>
 	<script src="../js/weather.js"></script>
 </body>
 

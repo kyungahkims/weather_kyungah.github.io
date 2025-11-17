@@ -282,3 +282,52 @@ range.addEventListener('input', e => {
 	const percentValue = (value / e.target.max) * 100;
 	e.target.style.background = `linear-gradient(to right, #fff ${percentValue}%, #c9c9c9 ${percentValue}%)`;
 });
+
+/* 체감온도 그래프 */
+const percentrange = document.getElementById("percentRange");
+const circle = document.getElementById("tempCircle");
+const path = document.getElementById("tempPath");
+
+const stop1 = document.getElementById("stop1");
+const stop2 = document.getElementById("stop2");
+const stop3 = document.getElementById("stop3");
+const stop4 = document.getElementById("stop4");
+
+function updateCurve(percent) {
+	const pathLength = path.getTotalLength();
+	const pointAtLength = path.getPointAtLength((pathLength * percent) / 100);
+	circle.setAttribute("cx", pointAtLength.x);
+	circle.setAttribute("cy", pointAtLength.y);
+}
+
+function updateGradient(percent) {
+	const offset = percent + "%";
+	stop2.setAttribute("offset", offset);
+	stop3.setAttribute("offset", offset);
+}
+
+function updateAll(percent) {
+	updateCurve(percent);
+	updateGradient(percent);
+}
+
+updateAll(percentrange.value);
+
+percentrange.addEventListener("input", (e) => {
+	updateAll(e.target.value);
+});
+
+
+/* 퀴즈 모달 */
+$('.quiz').click(function () {
+	$('.modal_wrap').css('display', 'flex');
+});
+
+$('.pop .close_btn').click(function () {
+	$('.modal_wrap').css('display', 'none');
+});
+
+/* 모바일 하단 날개 배너 */
+$('.close_banner_btn').click(function () {
+	$('.wing_banner').toggleClass('active');
+});
