@@ -3,11 +3,19 @@ $('.tooltip_btn').click(function () {
 	$(this).siblings($('.tool')).css('display', 'block');
 });
 
+$('.position_btn').click(function () {
+	$(this).parents('.my_position').siblings($('.big_tooltip_wrap')).css('display', 'flex');
+});
+
 $('.wrap, .close_btn').click(function () {
 	$('.tool').css('display', 'none');
 });
 
-$('.tooltip_wrap').click(function (e) {
+$('.close_btn').click(function () {
+	$('.big_tooltip_wrap').css('display', 'none');
+});
+
+$('.tooltip_wrap, .position_btn, .big_tooltip_wrap').click(function (e) {
 	e.stopPropagation();
 });
 
@@ -331,3 +339,21 @@ $('.pop .close_btn').click(function () {
 $('.close_banner_btn').click(function () {
 	$('.wing_banner').toggleClass('active');
 });
+
+/* iframe 안에서 fixed 되도록 */
+/* const left = document.querySelector('.left_wing_banner');
+const right = document.querySelector('.right_wing_banner');
+
+left.style.position = 'absolute';
+right.style.position = 'absolute';
+
+function syncScroll() {
+	const parentScrollY = window.parent.scrollY || 0;
+	const offsetTop = 15;
+
+	left.style.top = parentScrollY + offsetTop + 'px';
+	right.style.top = parentScrollY + offsetTop + 'px';
+}
+
+window.addEventListener('load', syncScroll);
+window.parent.addEventListener('scroll', syncScroll); */
