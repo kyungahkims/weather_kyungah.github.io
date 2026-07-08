@@ -542,9 +542,8 @@ body {
   display: none;
 }
 .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li {
+  position: relative;
   flex-shrink: 0;
-}
-.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -553,23 +552,32 @@ body {
   color: #000;
   border: 1px solid #c4c4c4;
   border-radius: 20px;
+  overflow: hidden;
+}
+.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li .select_btn {
+  height: 100%;
+  font-size: inherit;
+  line-height: 1;
   background-color: transparent;
-  padding: 0 11px 0 15px;
+  padding: 0 22px 0 15px;
 }
-.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li button::after {
-  content: "";
-  width: 7px;
-  height: 7px;
-  background: url("../img/icon-close-02.svg") no-repeat center/contain;
-  margin-left: 5px;
+.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li .remove_btn {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  width: 12px;
+  height: 12px;
+  background: url("../img/icon-close-02.svg") no-repeat center;
+  background-size: 8px 8px;
 }
-.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li button.active {
+.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li.active {
   color: #fff;
-  background-color: #126ccd;
   border: 1px solid #126ccd;
+  background-color: #126ccd;
 }
-.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li button.active::after {
-  background: url("../img/icon-close-03.svg") no-repeat center/contain;
+.wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li.active .remove_btn {
+  background: url("../img/icon-close-03.svg") no-repeat center;
+  background-size: 9px 9px;
 }
 .wrap .wrapper .box_group1 .left .box1 .area_wrap .area {
   display: flex;
@@ -717,6 +725,10 @@ body {
   margin-top: 8px;
   font-size: 14px;
 }
+.wrap .wrapper .box_group1 .left .box1 .group_wrap li .cont2 span {
+  display: inline-flex;
+  align-items: center;
+}
 .wrap .wrapper .box_group1 .left .box1 .group_wrap li .cont2 span:not(:last-child)::after {
   content: "";
   display: inline-block;
@@ -727,6 +739,10 @@ body {
 }
 .wrap .wrapper .box_group1 .left .box1 .group_wrap li .cont2 strong {
   font-weight: 900;
+  margin-left: 2px;
+}
+.wrap .wrapper .box_group1 .left .box1 .group_wrap li .cont2 img {
+  margin-left: 5px;
 }
 .wrap .wrapper .box_group1 .left .box1 .group_wrap li .temperature {
   display: flex;
@@ -2645,14 +2661,20 @@ body {
   .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list {
     margin-left: 0;
   }
-  .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li button {
+  .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li {
     height: 34px;
     font-size: 16px;
   }
-  .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li button::after {
-    content: "";
-    width: 8px;
-    height: 8px;
+  .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li .select_btn {
+    padding: 0 30px 0 21px;
+  }
+  .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li .remove_btn {
+    top: 10px;
+    right: 12px;
+    background-size: 10px 10px;
+  }
+  .wrap .wrapper .box_group1 .left .box1 .area_wrap .position .area_list li.active .remove_btn {
+    background-size: 10px 10px;
   }
   .wrap .wrapper .box_group1 .left .box1 .active_label {
     width: 30px;
